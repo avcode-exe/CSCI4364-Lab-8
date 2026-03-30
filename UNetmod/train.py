@@ -2,7 +2,7 @@ import torch
 from torch.utils.data import DataLoader
 from lion_pytorch import Lion
 from huggingface_hub import list_repo_files
-from config.settings import Config
+from configs.settings import Config
 from src.models.unet_cnn import UNetmod
 from src.data.loader import BubbleFastDataset
 from src.utils.helpers import set_deterministic
