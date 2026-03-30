@@ -3,7 +3,7 @@ import numpy as np
 import torch
 from torch.utils.data import IterableDataset
 from huggingface_hub import hf_hub_download
-from config.settings import Config
+from configs.settings import Config
 from src.utils.helpers import cleanup_disk
 
 class BubbleFastDataset(IterableDataset):

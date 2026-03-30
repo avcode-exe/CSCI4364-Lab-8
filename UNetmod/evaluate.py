@@ -4,7 +4,7 @@ import numpy as np
 import h5py
 import matplotlib.pyplot as plt
 from huggingface_hub import hf_hub_download
-from config.settings import Config
+from configs.settings import Config
 from src.models.unet_cnn import UNetmod
 from src.utils.metrics import get_physics_metrics, get_heat_flux_kl
 from src.utils.helpers import deep_clean

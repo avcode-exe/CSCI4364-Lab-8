@@ -11,9 +11,9 @@ class Config:
     # Paths
     CHECKPOINT_DIR = "checkpoints"
     CHECKPOINT_PATH = os.path.join(CHECKPOINT_DIR, "cnn_unet_step_checkpoint.pt")
-    TEMP_DATA_DIR = "/kaggle/tmp/bubble_data"
-    HF_QUOTA_DIR = "/kaggle/tmp/huggingface_quota"
-    CACHE_DIR = "/kaggle/tmp/cache"
+    TEMP_DATA_DIR = "./bubble_data"
+    HF_QUOTA_DIR = "./huggingface_quota"
+    CACHE_DIR = "./cache"
     
     # Fluid Physics Metadata
     FLUID_METADATA = {
